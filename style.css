@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,17 +7,42 @@
 body{
     background-color: #F5F5DC;
 }
+.fondo{
+    padding: 200px ;
+    
+}
 header{
     background-color: #2C5F2D;
     font-size: 20px;
 }
+h1{
+    font-size: 50px;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Cinzel';
+    font-weight: bold;
+}
+p{
+    font-family: 'Roboto';
+}
+#logo{
+    width: 100%;
+    width: 30%;
+}
+
 .carousel-inner {
     position: relative;
     overflow: hidden;
-  }
+}
   
-  .carousel-item img {
+.carousel-item img {
     height: 500px;
     max-width: 100%;
     object-fit: cover;
-  }
+}
+#especie h2{
+    font-size: 26px;
+}
+#especie p{
+    font-size: 18px;
+}
