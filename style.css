@@ -4,19 +4,31 @@
     margin: 0;
     padding: 0;
 }
+/* 643px */
 body{
     background-color: #F5F5DC;
+    overflow-x: hidden;
 }
 .fondo{
     padding: 200px ;
-    
 }
+.imagen-ini img:hover{
+    scale: 1.2;
+    padding-bottom: 4%;
+}
+.imagen-ini p{
+    font-size: 20px;
+}
+
 header{
     background-color: #2C5F2D;
     font-size: 20px;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
+}
+h2{
+    font-size: 48px;
 }
 h1, h2, h3, h4, h5{
     font-family: 'Cinzel';
@@ -24,6 +36,9 @@ h1, h2, h3, h4, h5{
 }
 p{
     font-family: 'Roboto';
+}
+#especie img{
+    max-height: 250px;
 }
 #logo{
     width: 100%;
@@ -38,6 +53,7 @@ p{
 .carousel-item img {
     height: 500px;
     max-width: 100%;
+    width: 700px;
     object-fit: cover;
 }
 #especie h2{
