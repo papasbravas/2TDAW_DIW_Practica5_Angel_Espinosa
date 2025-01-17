@@ -9,6 +9,9 @@ body{
     background-color: #F5F5DC;
     overflow-x: hidden;
 }
+.curiosidad{
+    background-color: #1D3557 ;
+}
 .fondo{
     padding: 200px ;
 }
@@ -23,6 +26,9 @@ body{
 header{
     background-color: #2C5F2D;
     font-size: 20px;
+}
+footer{
+    background-color: #3E2723 ;
 }
 h1{
     font-size: 60px;
@@ -61,4 +67,10 @@ p{
 }
 #especie p{
     font-size: 18px;
+}
+
+.gale img:hover{
+    scale: 1.1;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
