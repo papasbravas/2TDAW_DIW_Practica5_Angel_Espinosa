@@ -74,3 +74,8 @@ p{
     padding-bottom: 2%;
     padding-top: 2%;
 }
+.gale img {
+    object-fit: cover; /* Asegura que las imágenes llenen el contenedor sin deformarse */
+    width: 100%; /* Ocupa el ancho del contenedor */
+    border-radius: 5px; /* Opcional: bordes redondeados para un diseño más atractivo */
+}
