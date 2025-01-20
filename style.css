@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-/* 643px */
+
 body{
     background-color: #F5F5DC;
     overflow-x: hidden;
@@ -75,7 +75,11 @@ p{
     padding-top: 2%;
 }
 .gale img {
-    object-fit: cover; /* Asegura que las imágenes llenen el contenedor sin deformarse */
-    width: 100%; /* Ocupa el ancho del contenedor */
-    border-radius: 5px; /* Opcional: bordes redondeados para un diseño más atractivo */
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#otros p{
+    font-size: 20px;
 }
